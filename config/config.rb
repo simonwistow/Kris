@@ -1,12 +1,18 @@
 require 'rubygems' if RUBY_VERSION < "1.9"
 require 'bundler/setup'
 
+require 'all_your_base/are/belong_to_us'
 require 'data_mapper'
+require 'dm-core'
+require 'dm-timestamps'
 require 'dm-types'
 require 'erb'
 require 'json'
 require 'logger'
+require 'mail'
+require 'pp'
 require 'sinatra'
+require 'uuidtools'
 
 module Kris
   ROOT      = File.expand_path(File.join(File.dirname(__FILE__), '..'))

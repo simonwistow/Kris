@@ -1,11 +1,9 @@
 * Signup
-- Signup form
-- Signup email
+- Errors on Duplicate email
 - Redirect to WuFoo page for Demographics Questionnaire webpage
 
 * IO Group
 - Static Page
-- Redirect to WuFoo page for Questionnaire
 
 * SI Group
 - Redirect to WuFoo page for Questionnaire

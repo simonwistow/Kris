@@ -1,1 +1,5 @@
-Hello <%= @name %>
+<p>Hello <%= @user.name %></p>
+
+<% if @created %>
+<p>Your questionnaire page is <a target="_blank" href="<%= @user.questionnaire_url %>"><%= @user.questionnaire_url %></a>.</p>
+<% end %>
