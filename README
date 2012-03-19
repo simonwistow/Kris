@@ -1,0 +1,2 @@
+gem install sinatra json erb 
+rackup config.ru

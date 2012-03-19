@@ -1,0 +1,7 @@
+common: &common
+
+development:
+  <<: *common
+  
+production:
+  <<: *common
