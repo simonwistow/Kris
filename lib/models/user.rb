@@ -11,4 +11,9 @@ class User
   def questionnaire_url
     Kris::CONFIG['questionnaires'][bucket.to_s]
   end
+
+  # TODO have a list of modules and choices
+  def current_module 
+    "foo"
+  end
 end

@@ -3,17 +3,13 @@
 - Redirect to WuFoo page for Demographics Questionnaire webpage
 
 * IO Group
-- Static Page
 
 * SI Group
-- Redirect to WuFoo page for Questionnaire
-- Send out compliance email
-- Compliance webform (WuFoo)
+- Make sure we don't send emails out twice
 
 * SDTc group
 - Redirect to WuFoo page for Questionnaire
 - Select Module webpage
-- Send out compliance email
 - Compliance Web Form with game data
+- Make sure we don't send emails out twice
 
-* Admin
