@@ -1,6 +1,5 @@
 common: &common
   from_email: steve@coachstevo.com
-  base_url: http://example.com
   questionnaires:
     io: http://example.com/io/
     si: http://example.com/si/
