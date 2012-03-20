@@ -1,2 +1,3 @@
-gem install sinatra json erb 
-rackup config.ru
+sudo gem install bundle
+bundle install
+shotgun
